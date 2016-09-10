@@ -48,7 +48,7 @@ a{
 	margin-left: 60px;
 
 }
-button:before {
+.boton1:before {
 	 content:'';
 	 position: absolute;
 	 top: 0px;
@@ -59,15 +59,163 @@ button:before {
 	 border-radius: 4px;
 	 transition: all 2s ease;
 }
-button:hover:before {
+.boton1:hover:before {
  	width: 100%;
 }
 .med{
 	background-image: url(../img/textura_2.jpg);
-	height: 480px;
+	height: 1000px;
 }
 .med1{
 	margin-left: 250px;
 	font-size:25px;
+	padding-top: 80px;
 	
+}
+.decoration_1{
+	margin-left: 500px;
+	margin-top: -35px;
+	width: 150px;
+}
+.boton2{
+	background-color: #192951	;
+	color: white;
+	border-radius: 4px 4px;
+	width: 300px;
+	height: 70px;
+	margin-top: 50px;
+	font-size: 16px; 
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	margin-left: -225px;
+
+}
+.boton2:before {
+	 content:'';
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 width: 0px;
+	 height: 70px;
+	 background: rgba(255,255,255,0.3);
+	 border-radius: 4px;
+	 transition: all 2s ease;
+}
+.boton2:hover:before {
+ 	width: 100%;
+}
+.instructor_4{
+	width: 675px;
+    height: 325px;
+    float: left;
+    margin-left: -134px;
+    margin-top: 94px;
+    border: 1.9px solid black;
+}
+.profesor_9{
+	width: 675px;
+    height: 325px;
+    float: right;
+    margin-right: -137px;
+    margin-top: 94px;
+    border: 1.9px solid black;
+}
+.content-box-azul{
+	width: 400px;
+    height: 50px;
+    background-color: #192951;
+    padding: 15px 120px;
+    margin-left: 235px;
+    position: relative;
+    top: -81px;
+}
+.texto{
+	text-decoration: none;
+	color: white;
+	padding: 40px 84px;
+	font-size: 22px;
+}
+.texto2{
+	text-align: center;
+    font-size: 45px;
+    padding: 40px 200px;
+}
+/*seccion contacto*/
+.contact{
+	background-color: #192951;
+	height: 370px;
+}
+.lorem{
+	color: white;
+	width: 50%;
+	font-size: 13px;
+	margin-left: 20%;
+	padding-top: 70px;
+}
+.visitanos{
+	font-size: 16px;
+	color: white;
+	margin-left: 134px;
+}
+.contacto{
+	font-size: 11px;
+	color: white;
+	margin-left: 134px;
+}
+.mapa{
+	padding-top: 55px;
+	margin-left: 140px;
+}
+form{
+
+	width: 75%;
+    margin:auto;
+    background-color: #E8E7E7;
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 2px;
+}
+.contactanos{
+	color: #110977;
+    margin-left: 75px;
+    margin-top: 55px;
+    font-size: 32px;
+    font:bold;
+}
+input {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+textarea{
+	width: 100%;
+	margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#boton_enviar{
+	height: 50px;
+	width: 405px;
+	background-color: #192951;
+	color: white;
+}
+.shoes{
+	height: 580px;
+	width: 670px;
+}
+.pie{
+	background-color: #192951;
+	height: 45px;
+
+}
+.pie1{
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 25px;
+
 }
