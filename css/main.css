@@ -1,0 +1,73 @@
+h1{
+	color:#1B2631;
+	font-size: 30px;
+	margin-left: 360px;
+	font: bold;
+}
+ul{
+	margin-left: 23%;
+}
+.menu{
+	display: table-cell;
+	padding: 40px;
+	text-decoration: none;
+
+
+}
+a{
+	color: #707B7C;
+	
+}
+.fon-stu{
+	background-image: url(../img/dance_1.jpg);
+	height: 480px;
+}
+.studio{
+	color: #C4C7C6;
+	margin-left: 5%;
+	font-size: 60px;
+	padding-top: 50px;
+
+}
+.stu1{
+	color: #C4C7C6;
+	width: 210px;
+	padding: 5%;
+}
+.boton1{
+	background-color: #020E1C	;
+	color: white;
+	border-radius: 4px 4px;
+	width: 83px;
+	height: 37px;
+	margin-top: 0px;
+	font-size: 16px; 
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	margin-left: 60px;
+
+}
+button:before {
+	 content:'';
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 width: 0px;
+	 height: 42px;
+	 background: rgba(255,255,255,0.3);
+	 border-radius: 4px;
+	 transition: all 2s ease;
+}
+button:hover:before {
+ 	width: 100%;
+}
+.med{
+	background-image: url(../img/textura_2.jpg);
+	height: 480px;
+}
+.med1{
+	margin-left: 250px;
+	font-size:25px;
+	
+}
