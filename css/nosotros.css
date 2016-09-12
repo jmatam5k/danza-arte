@@ -1,1 +1,170 @@
-/* Inserta tu codigo aqui */
+body{
+	font-family: "Montserrat";
+}
+h1{
+	color:#1B2631;
+	font-size: 30px;
+	margin-left: 520px;
+	font: bold;
+}
+ul{
+	margin-left: 23%;
+}
+.menu{
+	display: table-cell;
+	padding: 40px;
+	text-decoration: none;
+
+
+}
+a{
+	color: #707B7C;
+	
+}
+
+.dance_7{
+	background-image: url(../img/dance_7.jpg);
+	height: 310px;
+	padding-top: 150px;
+	padding-left: 520px;
+}
+.transparente{
+    background: rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 400px;
+}
+.nosotros{
+	color: white;
+	margin-left: 60px;
+}
+.nosotros1{
+	color: white;
+}
+.pilar{
+	background-image: url(../img/cubes.png);
+	height: 320px;
+}
+/*columnas automaticas*/
+.columnas{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-left: 110px;
+	padding: 6%;
+	-webkit-column-count: 3; /*prefijos para Chrome, Safari, Opera */
+    -moz-column-count: 3; /*prefijo para Firefox */
+    column-count: 3;
+    color: #A4A4A4;
+}
+.titcolumna{
+	text-align: center;
+	color: #A4A4A4;
+
+}
+.titcolumna{
+	margin-top: -8px;
+}
+.uno{
+	margin-top: -20px;
+}
+/*instructores*/
+.inst{
+	text-align: center;
+	font-size: 35px;
+    padding: 35px;
+}
+
+.fotoinstructor{
+	width: 250px;
+	height: 180px;
+	position: relative;
+}
+.nombreinstructor{
+	font-weight: 600px;
+	font-weight: bold;
+}
+.descrintructor{
+	font-size: 17px;
+}
+.instructor{
+	width: 21%;
+}
+.costado{
+	margin-left: 6px;
+}
+.i1{
+	margin-top: -1px;
+	margin-left: 50px;
+}
+.i2{
+	margin-top: -1px;
+	margin-left: 50px;
+}
+.i3{
+	margin-top: -1px;
+	margin-left: 50px;
+}
+.padd{
+	padding-top: 55px;
+}
+/*frase inspiradora*/
+.frase{
+	font-size: 40px;
+	text-align: center;
+	padding: 150px;
+	font-style: italic;
+}
+
+/*Formulario Contacto*/
+form{
+
+	width: 75%;
+    margin:auto;
+    background-color: #E8E7E7;
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 2px;
+}
+.contactanos{
+	color: #110977;
+    margin-left: 75px;
+    margin-top: 55px;
+    font-size: 32px;
+    font:bold;
+}
+input {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+textarea{
+	width: 100%;
+	margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#boton_enviar{
+	height: 50px;
+	width: 405px;
+	background-color: #192951;
+	color: white;
+}
+.shoes{
+	height: 580px;
+	width: 670px;
+}
+.pie{
+	background-color: #192951;
+	height: 45px;
+
+}
+.pie1{
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 25px;
+
+}
