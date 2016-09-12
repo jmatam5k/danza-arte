@@ -1,1 +1,104 @@
-/* Inserta tu codigo aqui */
+body{
+	font-family: "Montserrat";
+}
+/*header*/
+h1{
+	color:#1B2631;
+	font-size: 30px;
+	margin-left: 360px;
+	font: bold;
+}
+ul{
+	margin-left: 23%;
+}
+.menu{
+	display: table-cell;
+	padding: 40px;
+	text-decoration: none;
+
+
+}
+a{
+	color: #707B7C;
+	
+}
+/*ofertas*/
+.oferta{
+	background-color: #DAD5D5;
+}
+.titofertas{
+	margin-left: 470px;
+	font-size: 20px;
+	font-weight: 600px;
+	padding-top: 50px;
+}
+.danza{
+	width:350px;
+	height: 450px;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 1;
+}
+.sombra{
+	position: absolute;
+	z-index: 5;
+	color:white;
+	width: 300px;
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+	margin-top: 170px;
+	margin-left: 25px;
+}
+/*Formulario contacto*/
+form{
+
+	width: 75%;
+    margin:auto;
+    background-color: #E8E7E7;
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 2px;
+}
+.contactanos{
+	color: #110977;
+    margin-left: 75px;
+    margin-top: 55px;
+    font-size: 32px;
+    font:bold;
+}
+input {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+textarea{
+	width: 100%;
+	margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#boton_enviar{
+	height: 50px;
+	width: 405px;
+	background-color: #192951;
+	color: white;
+}
+.shoes{
+	height: 580px;
+	width: 670px;
+}
+.pie{
+	background-color: #192951;
+	height: 45px;
+
+}
+.pie1{
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 25px;
+
+}
